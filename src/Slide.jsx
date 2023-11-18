@@ -12,7 +12,7 @@ const Slide = ({ display })=>{
                     unmountOnExit
                     >
                     <img
-                    className="slot-image"
+                    className="counter__value"
                     height={300}
                     width={300}
                     src={`/img/${img}`}
