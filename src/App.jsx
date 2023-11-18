@@ -17,7 +17,7 @@ function App() {
     const intervalId = setInterval(() => {
       const newArray = _.sampleSize(images, 3);
       setDisplay(newArray);
-    }, 10);
+    }, 100);
 
     setTimeout(() => {
       clearInterval(intervalId);
